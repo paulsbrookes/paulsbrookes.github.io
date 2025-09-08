@@ -6,7 +6,7 @@ date: 2025-09-06
 
 *Descent into the machine*
 
-Well, I already made the decision. I am learning assembly! Is this a good use of my time? As an ML engineer working mostly in python, I'll explain some reasons why this is a bad idea. But first, some background.
+Well, I already made the decision. I am learning assembly! Is this a good use of my time? As an ML engineer working mostly in python, I'll explain some reasons why this is actually a bad idea. But first, some background.
 
 ## What is assembly?
 
