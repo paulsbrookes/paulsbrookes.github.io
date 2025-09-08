@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Contrast Learning: x86 vs ARM"
-date: 2025-01-08
+date: 2025-09-08
 ---
 
-# Contrast Learning: x86 vs ARM
 *Understanding computer architecture through differences*
 
 When learning a complex field, the hardest part isn't just finding the right information; it's knowing what deserves attention. This is especially true for topics like assembly language and CPU architecture which are far removed from the layer of the tech stack in which I normally work. As someone entering this world without intending to become a hardware engineer, it would be good to have a learning strategy that would allow me to focus my effort.
