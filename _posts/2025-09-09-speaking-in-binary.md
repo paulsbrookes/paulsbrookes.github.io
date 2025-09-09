@@ -1,4 +1,8 @@
-# Speaking in Binary
+---
+layout: post
+title: "Speaking in Binary: The Universal Language of Compiled Programs"
+date: 2025-09-09
+---
 
 ## An Invisible Contract
 
@@ -6,9 +10,9 @@ Do you know how one piece of code talks to another?
 
 When you write a program in a compiled language, sometimes you need to run code that someone else compiled. Sometimes. Probably it doesn't happen very often... 
 
-For example, if you call `printf()` in C, you're invoking code that was compiled years ago, probably by a different compiler than yours, on a different machine, by people you've never met. Every time you link against a library or make a system call, two independently compiled pieces of binary code are having a conversation.
+For example, if you call `printf()` in C, you're invoking code that was compiled years ago, mabye by a different compiler than yours, on a different machine, by people you've never met. Every time you link against a library or make a system call, two independently compiled pieces of binary code are having a conversation.
 
-This happens all the time. Every program you run is a patchwork of code from different sources: your application code, the standard library, system libraries, third-party dependencies. They all speak to each other fluently, despite being strangers.
+Obviously, stuff like this happens all the time. Every program you run is a patchwork of code from different sources: your application code, the standard library, system libraries, third-party dependencies. They all speak to each other fluently, despite being strangers.
 
 How does this work? When we learn programming top-down, we think in comfortable abstractions: classes, functions, parameters, return values. But at the CPU level, there are no functions. There are only instructions and memory addresses. There's no calling or returning in the way we normally think of it. Only jumping to different locations in memory. You don't "pass arguments" to functions like they are people. To answer this question we'll have to move down the tech stack to a level at which the abstraction of functions doesn't even exist and learn about the application binary interface (ABI).
 
@@ -163,3 +167,5 @@ Application Binary Interfaces are critical to how any modern computer operates. 
 Right now, as you read this, your computer is executing millions of function calls per second, each one following these conventions perfectly. Your browser calling the operating system, which calls device drivers, which call firmware. Code compiled decades ago successfully calling code compiled yesterday. The ABI makes it all possible, a universal language spoken in binary, following rules so consistent that we can link code together without ever seeing its source.
 
 And that's how code talks to code.
+
+*This article was written with a mostly written directly with Claude Code and some quite opinionated prompting. Hopefully the article is as educational for you as it is for me!*
