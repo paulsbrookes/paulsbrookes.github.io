@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Speaking in Binary: The Universal Language of Compiled Programs"
+title: "Speaking in Binary"
 date: 2025-09-09
 ---
 
-## An Invisible Contract
+*An invisible contract*
 
 Do you know how one piece of code talks to another? 
 
