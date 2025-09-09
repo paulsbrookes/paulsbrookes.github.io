@@ -1,4 +1,10 @@
-# Academia and Industry: They're Different Obviously
+---
+layout: post
+title: "Academia vs. Industry"
+date: 2025-09-08
+---
+
+*They're different obviously*
 
 Academia and industry are quite different. This is known. But why are they different? Academia and business have been around for a while, but this is not going to be a history lesson. In this case, I would like to focus more on incentives as they exist today, without really explaining where they may have come from.
 
